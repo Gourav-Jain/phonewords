@@ -1,5 +1,5 @@
 import { reducer as phonewordReducer } from "./reducer";
-import * as actions from "../actions/actions";
+import * as actions from "../actions/action";
 
 describe("Phoneword reducer", () => {
   test.each`

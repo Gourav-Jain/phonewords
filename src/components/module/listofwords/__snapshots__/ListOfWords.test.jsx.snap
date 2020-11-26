@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@ListOfWords 1`] = `
+<div>
+  <div
+    class="result"
+  >
+    <h4>
+      List Of Words
+    </h4>
+    <ul>
+      <li>
+        ad
+      </li>
+      <li>
+        ae
+      </li>
+      <li>
+        af
+      </li>
+      <li>
+        bd
+      </li>
+      <li>
+        be
+      </li>
+      <li>
+        bf
+      </li>
+      <li>
+        cd
+      </li>
+      <li>
+        ce
+      </li>
+      <li>
+        cf
+      </li>
+    </ul>
+  </div>
+</div>
+`;

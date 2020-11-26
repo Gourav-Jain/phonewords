@@ -17,10 +17,12 @@ export const useDailKeyPadContainer = () => {
   };
   // handle click on dail key pad button
   const handleClick = (num) => {
-    //
+    // if click on # button
     if (num === -1) {
       setPhonenumber("");
-      dispatch(setPhonewordResponse({ listOfWords: [] }));
+      dispatch(
+        setPhonewordResponse({ showLoader: false, error: "", listOfWords: [] })
+      );
     } else {
       if (phonenumber.length < 10) {
         setPhonenumber(phonenumber + num);
@@ -28,8 +30,11 @@ export const useDailKeyPadContainer = () => {
     }
   };
 
+  // call to backend server get the list of word
   const apiCallToGetWords = () => {
-    dispatch(setPhonewordRequest({ showLoader: true }));
+    dispatch(
+      setPhonewordRequest({ showLoader: true, error: "", listOfWords: [] })
+    );
 
     fetch(`${getApiUrlByEnv()}/?digit=${phonenumber}`)
       .then((res) => {
@@ -50,18 +55,18 @@ export const useDailKeyPadContainer = () => {
         }
       })
       .catch((err) => {
-        debugger;
         dispatch(
           setPhonewordFailer({
-            listOfWords: [],
             showLoader: false,
-            error: err,
+            error: err.message,
+            listOfWords: [],
           })
         );
       });
   };
 
-  const handleSubmit = (e) => {
+  // call on "Click & Get Word List"
+  const handleSubmit = () => {
     apiCallToGetWords();
   };
 

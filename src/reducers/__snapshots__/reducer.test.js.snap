@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Phoneword reducer should return sucessfull setPhonewordFailer 1`] = `Object {}`;
+
+exports[`Phoneword reducer should return sucessfull setPhonewordRequest 1`] = `Object {}`;
+
+exports[`Phoneword reducer should return sucessfull setPhonewordResponse 1`] = `Object {}`;

@@ -45,4 +45,6 @@ h2 {
 }
 .error {
   color: red;
+  display: block;
+  text-align: center;
 }

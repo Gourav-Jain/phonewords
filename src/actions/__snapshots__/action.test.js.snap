@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@actions and @creators actions should return undefined action 1`] = `undefined`;
+
+exports[`@actions and @creators actions should return undefined action 2`] = `undefined`;
+
+exports[`@actions and @creators actions should return undefined action 3`] = `undefined`;
+
+exports[`@actions and @creators creators setPhonewordFailer returns correctly 1`] = `
+Object {
+  "payload": "mock-data",
+  "type": "PHONE_WORD_FAIL",
+}
+`;
+
+exports[`@actions and @creators creators setPhonewordRequest returns correctly 1`] = `
+Object {
+  "payload": "mock-data",
+  "type": "PHONE_WORD_REQS",
+}
+`;
+
+exports[`@actions and @creators creators setPhonewordResponse returns correctly 1`] = `
+Object {
+  "payload": "mock-data",
+  "type": "PHONE_WORD_RESP",
+}
+`;

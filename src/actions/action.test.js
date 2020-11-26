@@ -1,4 +1,4 @@
-import * as actions from "./actions";
+import * as actions from "./action";
 
 describe("@actions and @creators", () => {
   describe("actions", () => {

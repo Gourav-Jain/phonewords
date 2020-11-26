@@ -13,9 +13,7 @@ export const reducer = (state = initialState, action) => {
         ...action.payload,
       };
     case PHONE_WORD_RESP:
-      const newState = { ...state, ...action.payload };
-
-      return newState;
+      return { ...state, ...action.payload };
     case PHONE_WORD_FAIL:
       return { ...state, ...action.payload };
     default:
