@@ -1,0 +1,23 @@
+.bottom .result {
+  text-align: center;
+  color: #4747f3;
+  padding: 5px;
+}
+ul {
+  list-style: none;
+  padding: 10px 20px;
+  width: 300px;
+  margin: 0 auto;
+  color: black;
+}
+li {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+}
+li:last-child {
+  border-bottom: none;
+}
+h4 {
+  color: green;
+  padding: 10px;
+}

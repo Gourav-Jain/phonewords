@@ -1,11 +1,8 @@
 import React from "react";
+import { Phoneword } from "../views/phoneword/phoneword";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Phonewords</h1>
-    </div>
-  );
+  return <Phoneword />;
 }
 
 export default App;

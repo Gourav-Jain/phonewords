@@ -1,0 +1,23 @@
+.input {
+  margin: 5px 2px;
+  float: left;
+  padding: 10px 20px;
+  width: 70px;
+  height: 60px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.input .small-input {
+  font-size: 0.7rem;
+  color: grey;
+}
+.input:hover {
+  background-color: #e6e6e6;
+  border-radius: 25px;
+  border: 1px solid #e6e6e6;
+}
+.container .top .inner-container:nth-child(4) .input:last-child {
+  font-size: 1.3rem;
+  padding: 10px 12px;
+}
